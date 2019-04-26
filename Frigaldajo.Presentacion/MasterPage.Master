@@ -11,6 +11,65 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <style> /* Seccion de estilos momentania */
+        body {
+         background-color: #073763;
+         font-family: 'Comic Sans MS';
+        }
+        #titulo {
+            color: #f0c133;
+        }
+        #menu {
+            background-color: #cccccc;
+            margin-left: 20%;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .botonesMenu:hover {
+            background-color: #f1c232;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            transition: .5s;
+
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+    </style>
+    
+         <!-- Titulo -->
+        <table>
+            <tr>
+                <td>
+                    <h1 id="titulo">Duoc UC Acreditación</h1>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <!-- Menu -->
+        <nav>
+            <table id="menu">
+                <tr>
+                    <td class="botonesMenu">
+                        <a href="menuGeneral.aspx">Menu General</a>
+                    </td>
+                    <td class="botonesMenu">
+                        <a href="#">Estadisticas</a>
+                    </td>
+                    <td class="botonesMenu">
+                        <a href="#">Ingresar</a>
+                    </td>
+                    <td class="botonesMenu">
+                        <a href="#">Informacion de eventos</a>
+                    </td>
+                </tr>
+
+            </table>
+        </nav>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
