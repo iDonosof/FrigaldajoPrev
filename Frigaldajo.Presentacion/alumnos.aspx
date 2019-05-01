@@ -9,8 +9,8 @@
                     <asp:TextBox class="textbox" ID="txtRut" runat="server" ></asp:TextBox><asp:Button class="botonBuscar" ID="btnBuscar" runat="server" />
                 </td>
                 <td> <!-- Columna Derecha-->
-                    <asp:CheckBox class="checkbox" ID="CheckBox1" runat="server" Width="300" Height="200"/>
-                    <asp:CheckBox class="checkbox" ID="CheckBox2" runat="server" Width="300" Height="200"/>
+                    <asp:CheckBox class="noValido" ID="CheckBox1" runat="server" Width="300" Height="200"/>
+                    <asp:CheckBox class="valido" ID="CheckBox2" runat="server" Width="300" Height="200"/>
 
                 </td>
             </tr>

@@ -84,6 +84,8 @@
     <Content Include="IMG\libro.png" />
     <Content Include="IMG\noValido_false.png" />
     <Content Include="IMG\noValido_true.png" />
+    <Content Include="IMG\valido_false.png" />
+    <Content Include="IMG\valido_true.png" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
