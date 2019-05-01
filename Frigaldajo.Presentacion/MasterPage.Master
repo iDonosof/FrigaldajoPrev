@@ -5,42 +5,14 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css" type="text/css" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <style> /* Seccion de estilos momentania */
-        body {
-         background-color: #073763;
-         font-family: 'Comic Sans MS';
-        }
-        #titulo {
-            color: #f0c133;
-        }
-        #menu {
-            background-color: #cccccc;
-            margin-left: 20%;
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-        .botonesMenu:hover {
-            background-color: #f1c232;
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            transition: .5s;
-
-        }
-        a {
-            text-decoration: none;
-            color: black;
-            cursor: pointer;
-            padding: 5px;
-        }
-
-    </style>
-    
          <!-- Titulo -->
         <table>
             <tr>
@@ -55,7 +27,7 @@
             <table id="menu">
                 <tr>
                     <td class="botonesMenu">
-                        <a href="menuGeneral.aspx">Menu General</a>
+                        <a href="alumnos.aspx">Menu General</a>
                     </td>
                     <td class="botonesMenu">
                         <a href="#">Estadisticas</a>

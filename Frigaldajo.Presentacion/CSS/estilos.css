@@ -1,0 +1,114 @@
+﻿/* -----------------------------Sección Master Page---------------------------------------- */
+body {
+    background-color: #073763;
+    font-family: 'Comic Sans MS';
+    margin: 10px;
+}
+
+#titulo {
+    color: #f0c133;
+}
+
+#menu {
+    background-color: #cccccc;
+    margin-left: 20%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.botonesMenu:hover {
+    background-color: #f1c232;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .5s;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* -----------------------------Sección Master Page 2-------------------------------------- */
+.botones {
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #085394;
+    transition: .5s;
+    color: black;
+    text-decoration: none;
+}
+
+.botones:hover {
+    background-color: #f1c232;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#contenido {
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    background-color: #085394;
+    border-radius: 10px;
+}
+
+/* -----------------------------Sección Alumnos-------------------------------------------- */
+.orange-title {
+    color: #f0c133;
+}
+.textbox {
+    border: 3px solid #8dc0f8;
+}
+.botonBuscar {
+    background-image: url(../IMG/buscar.png);
+    background-color: #085394;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.checkbox {
+    background-image: url(../IMG/noValido_false.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+.checkbox:checked {
+    background-image: url(../IMG/noValido_true.png);
+    background-repeat: no-repeat;
+}
+
+/* -----------------------------Sección Docentes y Externos-------------------------------- */
+#cajaIngreso {
+    padding: 1em;
+    margin: auto;
+    width: 300px;
+}
+.textboxDocente {
+    border: 3px solid black;
+    background-color: #085394;
+    color: white;
+    width: 300px;
+}
+.botonAgregar {
+    border: 3px solid black;
+    margin: auto;
+    background-color: #073763;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    -webkit-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: .5s;
+}
+.botonAgregar:hover {
+    background-color: #f0c133;
+    color: black;
+    transition: .5s;
+}

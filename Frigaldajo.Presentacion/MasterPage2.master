@@ -1,67 +1,53 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MasterPage2.master.cs" Inherits="Frigaldajo.Presentacion.MasterPage2" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <style> /* Seccion de estilos momentania */
-        .botones {
-            border: 3px solid black;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: #085394;
-        }
-        .botones:hover {
-            background-color: #f1c232;
-            transition: .5s;
-        }
-        #contenido {
-            width: 100%;
-            height: 100%;
-            border: 3px solid black;
-            background-color: #085394;
-            border-radius: 10px;
-        }
-    </style>
     <table>
         <tr>
             <td>
-                <div class="botones">
-                    <table>
-                        <tr>
-                            <td><img src="IMG/libro.png" /></td>
-                            <td><a href="alumnos.aspx">Alumnos</a></td>
-                        </tr>
-                    </table>
-                </div>
-            </td>
+                <a href="alumnos.aspx"> <!-- Primer boton -->
+                    <div class="botones">
+                        <table>
+                            <tr>
+                                <td><img src="IMG/libro.png" /></td>
+                                <td>Alumnos</td>
+                            </tr>     
+                        </table>      
+                    </div>    
+                </a>        
+            </td>                 
             <td id="contenido" rowspan="3">
-                <div>
+                <div>             
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
-                </div>
+                </div>            
+            </td>                 
+        </tr>                     
+        <tr>                      
+            <td>                  
+                <a href="docentes.aspx">
+                    <div class="botones"> <!-- Segundo boton -->
+                        <table>       
+                            <tr>      
+                                <td><img src="IMG/docentes.png" /></td>
+                                <td>Docentes</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
             </td>
         </tr>
         <tr>
             <td>
-                <div class="botones">
-                    <table>
-                        <tr>
-                            <td><img src="IMG/docentes.png" /></td>
-                            <td><a href="#">Docentes</a></td>
-                        </tr>
-                    </table>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="botones">
-                    <table>
-                        <tr>
-                            <td><img src="IMG/externos.png" /></td>
-                            <td><a href="#">Externos</a></td>
-                        </tr>
-                    </table>
-                </div>
+                <a href="externos.aspx">
+                    <div class="botones"> <!-- Tercer boton -->
+                        <table>
+                            <tr>
+                                <td><img src="IMG/externos.png" /></td>
+                                <td>Externos</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
             </td>
         </tr>
     </table>

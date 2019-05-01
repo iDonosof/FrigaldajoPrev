@@ -74,11 +74,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="alumnos.aspx" />
+    <Content Include="CSS\estilos.css" />
+    <Content Include="docentes.aspx" />
+    <Content Include="externos.aspx" />
+    <Content Include="IMG\buscar.png" />
+    <Content Include="IMG\codigoBarras.png" />
     <Content Include="IMG\docentes.png" />
     <Content Include="IMG\externos.png" />
     <Content Include="IMG\libro.png" />
+    <Content Include="IMG\noValido_false.png" />
+    <Content Include="IMG\noValido_true.png" />
     <Content Include="index.aspx" />
-    <Content Include="menuGeneral.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +94,20 @@
     </Compile>
     <Compile Include="alumnos.aspx.designer.cs">
       <DependentUpon>alumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="docentes.aspx.cs">
+      <DependentUpon>docentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="docentes.aspx.designer.cs">
+      <DependentUpon>docentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="externos.aspx.cs">
+      <DependentUpon>externos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="externos.aspx.designer.cs">
+      <DependentUpon>externos.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -109,13 +129,6 @@
     </Compile>
     <Compile Include="MasterPage2.master.designer.cs">
       <DependentUpon>MasterPage2.master</DependentUpon>
-    </Compile>
-    <Compile Include="menuGeneral.aspx.cs">
-      <DependentUpon>menuGeneral.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="menuGeneral.aspx.designer.cs">
-      <DependentUpon>menuGeneral.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

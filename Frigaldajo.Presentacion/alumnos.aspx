@@ -1,16 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage2.master" AutoEventWireup="true" CodeBehind="alumnos.aspx.cs" Inherits="Frigaldajo.Presentacion.alumnos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <style> /* Seccion de estilos momentania */
-       #tituloContenedor{
-           margin-left: 45%;
-           margin-top: -13%;
-       }
-    </style>
-    <table id="tituloContenedor">
-        <tr>
-            <td>
-                <h1 id="titulo">Alumnos</h1>
-            </td>
-        </tr>
-    </table>
+    <div class="container">
+        <h1 class="text-center orange-title">Alumnos</h1>
+        <table>
+            <tr>
+                <td> <!-- Columna Izquierda -->
+                    <img src="IMG/codigoBarras.png" width="200" /><br />
+                    <asp:TextBox class="textbox" ID="txtRut" runat="server" ></asp:TextBox><asp:Button class="botonBuscar" ID="btnBuscar" runat="server" />
+                </td>
+                <td> <!-- Columna Derecha-->
+                    <asp:CheckBox class="checkbox" ID="CheckBox1" runat="server" Width="300" Height="200"/>
+                    <asp:CheckBox class="checkbox" ID="CheckBox2" runat="server" Width="300" Height="200"/>
+
+                </td>
+            </tr>
+        </table>
+    </div>
 </asp:Content>
