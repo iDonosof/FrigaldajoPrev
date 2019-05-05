@@ -76,14 +76,18 @@
     <Content Include="alumnos.aspx" />
     <Content Include="CSS\estilos.css" />
     <Content Include="docentes.aspx" />
+    <Content Include="encuestas.aspx" />
     <Content Include="externos.aspx" />
     <Content Include="IMG\buscar.png" />
     <Content Include="IMG\codigoBarras.png" />
     <Content Include="IMG\docentes.png" />
     <Content Include="IMG\externos.png" />
     <Content Include="IMG\libro.png" />
+    <Content Include="IMG\neutral.png" />
     <Content Include="IMG\noValido_false.png" />
     <Content Include="IMG\noValido_true.png" />
+    <Content Include="IMG\sonriente.png" />
+    <Content Include="IMG\triste.png" />
     <Content Include="IMG\valido_false.png" />
     <Content Include="IMG\valido_true.png" />
     <Content Include="index.aspx" />
@@ -103,6 +107,13 @@
     </Compile>
     <Compile Include="docentes.aspx.designer.cs">
       <DependentUpon>docentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="encuestas.aspx.cs">
+      <DependentUpon>encuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encuestas.aspx.designer.cs">
+      <DependentUpon>encuestas.aspx</DependentUpon>
     </Compile>
     <Compile Include="externos.aspx.cs">
       <DependentUpon>externos.aspx</DependentUpon>

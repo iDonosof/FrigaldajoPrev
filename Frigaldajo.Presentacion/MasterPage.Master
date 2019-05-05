@@ -38,6 +38,9 @@
                     <td class="botonesMenu">
                         <a href="#">Informacion de eventos</a>
                     </td>
+                    <td class="botonesMenu">
+                        <a href="encuestas.aspx">Encuentas</a>
+                    </td>
                 </tr>
 
             </table>

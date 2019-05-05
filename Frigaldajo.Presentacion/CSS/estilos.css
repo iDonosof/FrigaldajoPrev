@@ -11,7 +11,7 @@ body {
 
 #menu {
     background-color: #cccccc;
-    margin-left: 20%;
+    margin: auto;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -119,4 +119,47 @@ a {
     background-color: #f0c133;
     color: black;
     transition: .5s;
+}
+
+/* -----------------------------Sección Encuetas------------------------------------------- */
+#cajaEncuesta {
+    padding: 1em;
+    margin: auto;
+    width: 1000px;
+    background-color: #085394;
+    border: 3px solid black;
+}
+
+.radio {
+    margin: auto;
+    background-color: #085394;
+}
+
+.textboxEncuesta {
+    border: 3px solid black;
+    width: 500px;
+    height: 100px;
+}
+
+.botonEnviar {
+    border: 3px solid black;
+    margin: auto;
+    margin-left: 15px;
+    background-color: #f0c133;
+    color: black;
+    padding: 10px;
+    -webkit-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: .5s;
+}
+
+.margin-text {
+    padding-right: 30px;
+    margin: auto;
+}
+
+#centrarCaja {
+    margin: auto;
+    width: 700px;
 }
