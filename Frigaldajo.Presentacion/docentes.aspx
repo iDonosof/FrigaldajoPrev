@@ -39,7 +39,7 @@
             <tr>
                 <td></td>
                 <td>
-                    <asp:Button class="botonAgregar" ID="btnAgregar_Externos" runat="server" Text="Agregar" />
+                    <asp:Button class="botonAgregar" ID="btnAgregar_Externos" runat="server" Text="Agregar" OnClick="btnAgregar_Externos_Click" />
                 </td>
             </tr>
         </table>

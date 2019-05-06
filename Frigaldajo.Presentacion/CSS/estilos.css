@@ -73,22 +73,9 @@ a {
     border-radius: 5px;
     margin-left: 10px;
 }
-.noValido {
-    background-image: url(../IMG/noValido_false.png);
-    background-repeat: no-repeat;
-    display: none;
-}
-.noValido:checked {
-    background-image: url(../IMG/noValido_true.png);
-    background-repeat: no-repeat;
-}
 .valido {
-    background-image: url(../IMG/valido_false.png);
     background-repeat: no-repeat;
     display: none;
-}
-.valido:checked {
-    background-image: url(../IMG/valido_true.png);
 }
 
 /* -----------------------------Sección Docentes y Externos-------------------------------- */

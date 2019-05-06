@@ -14,7 +14,7 @@ namespace Frigaldajo.Negocios
         private string _correo;
         private int _edad;
         private string _jornada;
-        private Evento _idEvento;
+        private int _idEvento;
         #endregion
         //
         #region Propiedades
@@ -53,7 +53,7 @@ namespace Frigaldajo.Negocios
             get { return _jornada; }
             set { _jornada = value; }
         }
-        public Evento IdEvento
+        public int IdEvento
         {
             get { return _idEvento; }
             set { _idEvento = value; }
