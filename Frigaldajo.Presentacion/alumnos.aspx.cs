@@ -19,7 +19,7 @@ namespace Frigaldajo.Presentacion
 
         protected void btnBuscar_Click(object sender, EventArgs e)
         {
-            string rut = txtRut.Text.Trim();
+            string rut = txtRut.Text.Trim().ToLower();
             if(repo.InsertAlumno(rut))
             {
                 Imagen.ImageUrl = "IMG/valido_true.png";

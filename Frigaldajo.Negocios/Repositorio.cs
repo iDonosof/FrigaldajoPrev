@@ -31,6 +31,17 @@ namespace Frigaldajo.Negocios
                         Rut = "19845227-0",
                         Telefono = 123456789
                     });
+                    _alumnosExterno.Add(new Alumnos()
+                    {
+                        Nombre = "Daniela",
+                        Apellido = "Sepulveda",
+                        Correo = "da.sepulvedag@alumnos.duoc.cl",
+                        Edad = 22,
+                        IdEvento = 1,
+                        Jornada = "Diurna",
+                        Rut = "19409356-k",
+                        Telefono = 987654321
+                    });
                 }
                 return _alumnosExterno;
             }
