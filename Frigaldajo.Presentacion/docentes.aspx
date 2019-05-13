@@ -37,6 +37,14 @@
                 </td>
             </tr>
             <tr>
+                <td>
+                    <p class="orange-title">Edad:</p>
+                </td>
+                <td>
+                    <asp:TextBox class="textboxDocente" ID="txtEdad_Docente" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
                 <td></td>
                 <td>
                     <asp:Button class="botonAgregar" ID="btnAgregar_Externos" runat="server" Text="Agregar" OnClick="btnAgregar_Externos_Click" />

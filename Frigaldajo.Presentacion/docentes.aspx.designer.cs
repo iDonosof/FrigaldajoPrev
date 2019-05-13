@@ -49,6 +49,15 @@ namespace Frigaldajo.Presentacion {
         protected global::System.Web.UI.WebControls.TextBox txtCorreo_Docente;
         
         /// <summary>
+        /// Control txtEdad_Docente.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEdad_Docente;
+        
+        /// <summary>
         /// Control btnAgregar_Externos.
         /// </summary>
         /// <remarks>

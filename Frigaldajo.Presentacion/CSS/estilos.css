@@ -78,6 +78,16 @@ a {
     display: none;
 }
 
+.center {
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+}
+
+.padding {
+    padding: 10px;
+}
+
 /* -----------------------------Sección Docentes y Externos-------------------------------- */
 #cajaIngreso {
     padding: 1em;
