@@ -1,17 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using Frigaldajo.Negocios;
 
 namespace Frigaldajo.Presentacion
 {
     public partial class index : System.Web.UI.Page
     {
+        Repositorio repo = new Repositorio();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["repo"] != null)
+            {
+                repo = (Repositorio)Session["repo"];
+            }
+            gvEventList.DataSource = repo.GetListaEventos();
+            gvEventList.DataBind();
         }
     }
 }

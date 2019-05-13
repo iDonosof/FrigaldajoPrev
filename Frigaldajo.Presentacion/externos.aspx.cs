@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using Frigaldajo.Negocios;
 
 namespace Frigaldajo.Presentacion
@@ -31,10 +26,13 @@ namespace Frigaldajo.Presentacion
             if (repo.InsertExterno(externo))
             {
                 //Se agrego correctamente 
+                repo.InsertExterno(externo);
+                lbMensaje.Text = "Agregado correctamente";
             }
             else
             {
                 //no se agrego correctamente
+                lbMensaje.Text = "Ocurrio un error";
             }
         }
     }
