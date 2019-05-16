@@ -33,13 +33,13 @@
                         <a href="alumnos.aspx">Menu General</a>
                     </td>
                     <td class="botonesMenu">
-                        <a href="#">Estadisticas</a>
+                        <a href="estadisticas.aspx">Estadisticas</a>
                     </td>
                     <td class="botonesMenu">
-                        <a href="#">Ingresar</a>
+                        <a href="estadisticas.aspx">Ingresar</a>
                     </td>
                     <td class="botonesMenu">
-                        <a href="#">Informacion de eventos</a>
+                        <a href="informacioEvento.aspx">Informacion de eventos</a>
                     </td>
                     <td class="botonesMenu">
                         <a href="encuestas.aspx">Encuentas</a>

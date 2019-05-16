@@ -77,10 +77,12 @@
     <Content Include="CSS\estilos.css" />
     <Content Include="docentes.aspx" />
     <Content Include="encuestas.aspx" />
+    <Content Include="estadisticas.aspx" />
     <Content Include="eventos.aspx" />
     <Content Include="externos.aspx" />
     <Content Include="IMG\buscar.png" />
     <Content Include="IMG\codigoBarras.png" />
+    <Content Include="IMG\PageNotFound.jpg" />
     <Content Include="IMG\docentes.png" />
     <Content Include="IMG\externos.png" />
     <Content Include="IMG\libro.png" />
@@ -92,6 +94,7 @@
     <Content Include="IMG\valido_false.png" />
     <Content Include="IMG\valido_true.png" />
     <Content Include="index.aspx" />
+    <Content Include="informacioEvento.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +119,13 @@
     <Compile Include="encuestas.aspx.designer.cs">
       <DependentUpon>encuestas.aspx</DependentUpon>
     </Compile>
+    <Compile Include="estadisticas.aspx.cs">
+      <DependentUpon>estadisticas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="estadisticas.aspx.designer.cs">
+      <DependentUpon>estadisticas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="eventos.aspx.cs">
       <DependentUpon>eventos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -136,6 +146,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="informacioEvento.aspx.cs">
+      <DependentUpon>informacioEvento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="informacioEvento.aspx.designer.cs">
+      <DependentUpon>informacioEvento.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

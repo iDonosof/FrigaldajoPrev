@@ -102,8 +102,11 @@
                     <asp:TextBox class="textboxEncuesta" ID="TextBox1" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:Button class="botonEnviar" ID="btnAgregar_Externos" runat="server" Text="Enviar" />
+                    <asp:Button class="botonEnviar" ID="btnAgregar_Externos" runat="server" Text="Enviar" OnClick="btnAgregar_Externos_Click" />
                 </td>
+            </tr>
+            <tr>
+                <asp:Label ID="lbMessage" runat="server" Text=""></asp:Label>
             </tr>
         </table>
         </div>

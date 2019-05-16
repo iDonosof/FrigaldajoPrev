@@ -13,5 +13,25 @@ namespace Frigaldajo.Presentacion
         {
 
         }
+
+        protected void btnAgregar_Externos_Click(object sender, EventArgs e)
+        {
+            ClearFields();
+        }
+
+        public void ClearFields()
+        {
+            rdbEvento1.Checked = false;
+            rdbEvento2.Checked = false;
+            rdbEvento3.Checked = false;
+            rdbOrganizacion1.Checked = false;
+            rdbOrganizacion2.Checked = false;
+            rdbOrganizacion3.Checked = false;
+            rdbTiempo1.Checked = false;
+            rdbTiempo2.Checked = false;
+            rdbTiempo3.Checked = false;
+            TextBox1.Text = string.Empty;
+            lbMessage.Text = "Gracias por contestar la encuesta 😄";
+        }
     }
 }
