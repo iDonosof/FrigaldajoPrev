@@ -10,114 +10,150 @@
 namespace Frigaldajo.Presentacion {
     
     
-    public partial class encuestas {
+    public partial class eventos {
         
         /// <summary>
-        /// Control rdbEvento1.
+        /// Control lbNombreEvento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbEvento1;
+        protected global::System.Web.UI.WebControls.Label lbNombreEvento;
         
         /// <summary>
-        /// Control rdbEvento2.
+        /// Control txtNombreEvento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbEvento2;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreEvento;
         
         /// <summary>
-        /// Control rdbEvento3.
+        /// Control lbEncargado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbEvento3;
+        protected global::System.Web.UI.WebControls.Label lbEncargado;
         
         /// <summary>
-        /// Control rdbOrganizacion1.
+        /// Control txtEncargado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbOrganizacion1;
+        protected global::System.Web.UI.WebControls.TextBox txtEncargado;
         
         /// <summary>
-        /// Control rdbOrganizacion2.
+        /// Control lbEscuelaArea.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbOrganizacion2;
+        protected global::System.Web.UI.WebControls.Label lbEscuelaArea;
         
         /// <summary>
-        /// Control rdbOrganizacion3.
+        /// Control txtEscuelaArea.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbOrganizacion3;
+        protected global::System.Web.UI.WebControls.TextBox txtEscuelaArea;
         
         /// <summary>
-        /// Control rdbTiempo1.
+        /// Control lbFechaInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbTiempo1;
+        protected global::System.Web.UI.WebControls.Label lbFechaInicio;
         
         /// <summary>
-        /// Control rdbTiempo2.
+        /// Control txtFechaInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbTiempo2;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaInicio;
         
         /// <summary>
-        /// Control rdbTiempo3.
+        /// Control lbFechaTermino.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rdbTiempo3;
+        protected global::System.Web.UI.WebControls.Label lbFechaTermino;
         
         /// <summary>
-        /// Control TextBox1.
+        /// Control txtFechaTermino.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaTermino;
         
         /// <summary>
-        /// Control btnAgregar_Externos.
+        /// Control lbHoraInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAgregar_Externos;
+        protected global::System.Web.UI.WebControls.Label lbHoraInicio;
         
         /// <summary>
-        /// Control lbMessage.
+        /// Control txtHoraInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbMessage;
+        protected global::System.Web.UI.WebControls.TextBox txtHoraInicio;
+        
+        /// <summary>
+        /// Control lbHoraTermino.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbHoraTermino;
+        
+        /// <summary>
+        /// Control txtHoraTermino.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtHoraTermino;
+        
+        /// <summary>
+        /// Control btnIngresar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnIngresar;
+        
+        /// <summary>
+        /// Control lbMensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbMensaje;
     }
 }

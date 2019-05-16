@@ -17,7 +17,7 @@
         <table>
             <tr>
                 <td>
-                    <h1 id="titulo">Duoc UC Acreditación</h1>
+                   <a href="index.aspx"><h1 id="titulo">Duoc UC Acreditación</h1></a>
                 </td>
             </tr>
         </table>
@@ -27,16 +27,19 @@
             <table id="menu">
                 <tr>
                     <td class="botonesMenu">
+                        <a href="eventos.aspx">Ingresar evento</a>
+                    </td>
+                    <td class="botonesMenu">
                         <a href="alumnos.aspx">Menu General</a>
                     </td>
                     <td class="botonesMenu">
                         <a href="estadisticas.aspx">Estadisticas</a>
                     </td>
                     <td class="botonesMenu">
-                        <a href="#">Ingresar</a>
+                        <a href="estadisticas.aspx">Ingresar</a>
                     </td>
                     <td class="botonesMenu">
-                        <a href="#">Informacion de eventos</a>
+                        <a href="informacioEvento.aspx">Informacion de eventos</a>
                     </td>
                     <td class="botonesMenu">
                         <a href="encuestas.aspx">Encuentas</a>

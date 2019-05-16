@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using Frigaldajo.Negocios;
+using System.Web.SessionState;
 
 namespace Frigaldajo.Presentacion
 {
@@ -13,7 +9,10 @@ namespace Frigaldajo.Presentacion
         Repositorio repo = new Repositorio();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["repo"] != null)
+            {
+                repo = (Repositorio)Session["repo"];
+            }
         }
 
         protected void btnAgregar_Externos_Click(object sender, EventArgs e)
@@ -30,12 +29,18 @@ namespace Frigaldajo.Presentacion
 
             if (repo.InsertDocente(docente))
             {
-                //Agregado
+                lbMensaje.Text = "Agregado correctamente";
             }
             else
             {
-                //No lo agrego
+                lbMensaje.Text = "Ocurrio un error";
             }
+            SaveChanges();
+        }
+
+        private void SaveChanges()
+        {
+            Session["repo"] = repo;
         }
     }
 }

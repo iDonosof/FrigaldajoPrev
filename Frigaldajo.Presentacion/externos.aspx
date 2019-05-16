@@ -51,5 +51,6 @@
                 </td>
             </tr>
         </table>
+        <asp:Label ID="lbMensaje" runat="server" Text=""></asp:Label>
     </div>
 </asp:Content>
