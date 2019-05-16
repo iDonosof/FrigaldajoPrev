@@ -77,6 +77,7 @@
     <Content Include="CSS\estilos.css" />
     <Content Include="docentes.aspx" />
     <Content Include="encuestas.aspx" />
+    <Content Include="estadisticas.aspx" />
     <Content Include="externos.aspx" />
     <Content Include="IMG\buscar.png" />
     <Content Include="IMG\codigoBarras.png" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="encuestas.aspx.designer.cs">
       <DependentUpon>encuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="estadisticas.aspx.cs">
+      <DependentUpon>estadisticas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="estadisticas.aspx.designer.cs">
+      <DependentUpon>estadisticas.aspx</DependentUpon>
     </Compile>
     <Compile Include="externos.aspx.cs">
       <DependentUpon>externos.aspx</DependentUpon>

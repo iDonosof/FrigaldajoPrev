@@ -160,3 +160,14 @@ a {
     margin: auto;
     width: 700px;
 }
+
+/* -----------------------------Sección Estadisticas--------------------------------------- */
+#cajaEstadisticas {
+    padding: 1em;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: #085394;
+    border: 3px solid black;
+}
+

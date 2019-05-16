@@ -30,7 +30,7 @@
                         <a href="alumnos.aspx">Menu General</a>
                     </td>
                     <td class="botonesMenu">
-                        <a href="#">Estadisticas</a>
+                        <a href="estadisticas.aspx">Estadisticas</a>
                     </td>
                     <td class="botonesMenu">
                         <a href="#">Ingresar</a>
